@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Luar La L</title>
+
+    <style>
+        body{
+            background-color:#d9d9d9;
+            font-family:Arial;
+            margin:20px;
+            cursor:crosshair;}
+
+        header{
+    background:#111111;   /* Negro */
+    color:white;
+    padding:15px;
+    text-align:center;
+    border-bottom:4px solid #6A0DAD; /* Línea morada */}
+
+nav{
+    background:#2E0854;   /* Morado oscuro */
+    padding:10px;
+    text-align:center;}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    margin:15px;}
+
+.contenido{
+    background:white;
+    border:2px solid #6A0DAD; /* Borde morado */
+    padding:20px;
+    margin-top:20px;}
+
+footer{
+    background:#111111;
+    color:white;
+    border-top:4px solid #6A0DAD;
+    padding:10px;
+    text-align:center;}  
+
+  </style>
+
+</head>
+
+<body>
+
+<header>
+<h1>Luar La L</h1>
+<p>Cantante y compositor de Puerto Rico</p>
+</header>
+
+<nav>
+<a href="index.html">Inicio</a>
+<a href="quienes_somos.html">Quiénes Somos</a>
+<a href="contacto.html">Contacto</a>
+</nav>
+
+<div class="contenido">
+
+<h2>¿Quién es Luar La L?</h2>
+
+<p>
+Raúl Armando del Valle Robles (Carolina, Puerto Rico, 29 de mayo de 2000), conocido por su nombre artístico Luar la L, es un rapero, cantante y compositor puertorriqueño de trap, reguetón y drill.Es reconocido por su estilo de rap y trap, destacándose por canciones
+como
+    <a href="https://www.youtube.com/watch?v=6Vn8BgjdhuI&list=RD6Vn8BgjdhuI&start_radio=1" target="_blank">
+        Caile
+    </a>
+    </p>
+
+<img src="imagenes/luar.jpg" alt="Luar La L">
+
+<p>
+Luar La L empezó a participar en batallas de freestyle rap improvisado junto a Eduardo Cebador, un gran freestyler de España, en las que se destacaba. A través de sus redes sociales dio a conocer sus temas, ganando seguidores.Su inicio profesional comenzó en los años 2018 y 2019 con sencillos como «Guayoteo», «Comerte», «El Bote», entre otros.</p>
+
+<h2>Logros</h2>
+
+<ul>
+    <li>Reconocimiento internacional en la música urbana.</li>
+    <li>Colaboraciones con artistas reconocidos.</li>
+    <li>Millones de reproducciones en plataformas digitales.</li>
+    <li>Gran crecimiento en redes sociales.</li>
+</ul>
+
+<h2>Datos curiosos</h2>
+
+<p>
+
+En junio del año 2021, fue arrestado por que lo involucraron en un asesinato, de un amigo en la zona de Carolina, sin embargo no se le encontró una causa que determine una sentencia y fue liberado en la mañana siguiente.
+<br>
+En mayo del año 2023, fue detenido en San Juan por posesión de drogas y armas ilegales.
+</br>
+Su nombre artístico es conocido en toda Latinoamérica y sus canciones suelen
+mezclar rap, trap y reggaetón. Su estilo se caracteriza por letras directas y un
+sonido moderno.
+</p>
+
+<h2>Albúm de estuido</h2>
+
+<ul>
+<li>2020:L3TRA</li>
+<li>2021:L3TRA 2</li>
+<li>2025:SOBR3NATURAL</li>
+</ul>
+
+<h2>Canciones Reconocidas</h2>
+
+<ol>
+<li>La Purga (33M de reproducciones)</li>
+<li>Caile (410M de reproducciones).</li>
+<li>Side Bitch (45M de reproducciones)</li>
+<li>Yogurcito remix (341M de reproducciones)</li>
+<li>Pacto (168M de reproducciones)</li>
+</ol>
+
+
+<br>
+
+<p>
+Escucha su música en
+<p>
+<a href="https://open.spotify.com/intl-es/artist/4axKuDPr6WKcDCyh8vueTY" target="_blank">Spotify</a>
+<br>
+</p>
+<a href="https://www.youtube.com/channel/UCsv1miBT9JfqAbdBuBfbnJg" target="_blank">YouTube</a>.
+</p>
+
+</div>
+
+<footer>
+Página creada por Miguel Mejía
+</footer>
+
+<div id="reloj" style="text-align:center;font-size:25px;color:#FFD700;margin-top:20px;"></div>
+
+<script>
+
+function actualizarHora(){
+
+const fecha=new Date();
+
+document.getElementById("reloj").innerHTML=fecha.toLocaleTimeString();
+
+}
+
+setInterval(actualizarHora,1000);
+
+actualizarHora();
+
+</script>
+</body>
+</html>
